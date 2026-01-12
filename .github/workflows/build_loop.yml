@@ -217,7 +217,8 @@ jobs:
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           now_line \
-          watch_title
+          watch_title \
+          negative_insulin
           
           #future_carbs_4h \
           #low_carb_limit \
