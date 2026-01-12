@@ -216,10 +216,8 @@ jobs:
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
-          dexcom_upload_readings \
           now_line \
-          watch_title \
-          live_activity
+          watch_title
           
           #future_carbs_4h \
           #low_carb_limit \
